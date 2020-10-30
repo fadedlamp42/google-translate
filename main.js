@@ -9,8 +9,9 @@ function createWindow () {
     }
   })
 
-  win.loadFile('index.html')
-  win.webContents.openDevTools()
+  win.loadURL("https://translate.google.com/#view=home&op=translate&sl=en&tl=zh-CN")
+  win.setMenuBarVisibility(false)
+  win.setAutoHideMenuBar(true)
 }
 
 app.whenReady().then(createWindow)
