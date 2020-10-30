@@ -1,5 +1,5 @@
 # Google Translate Desktop
-A minimal electron app to access [Google Translate](https://translate.google.com) from a desktop application.
+A minimal electron.js app to use [Google Translate](https://translate.google.com) as a desktop application.
 
 ## Installation and usage
 To build, run `npm run make`
