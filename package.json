@@ -1,6 +1,6 @@
 {
   "name": "google-translate",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "minimal wrapper around translate.google.com for desktop access",
   "maintainers": ["fadedlamp42"],
   "main": "main.js",
@@ -42,7 +42,20 @@
         },
         {
           "name": "@electron-forge/maker-deb",
-          "config": {}
+          "config": {
+              "options": {
+                  "categories": [
+                      "Education",
+                      "Utility"
+                  ],
+                  "description": "Google Translate desktop client",
+                  "genericName": "Dictionary",
+                  "homepage": "https://github.com/fadedlamp42/google-translate",
+                  "maintainer": "fadedlamp42",
+                  "priority": "optional",
+                  "section": "web"
+              }
+          }
         },
         {
           "name": "@electron-forge/maker-rpm",
