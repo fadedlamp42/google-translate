@@ -10,7 +10,7 @@ function createWindow () {
   })
 
   //load translate.google.com
-  win.loadURL("https://translate.google.com/#view=home&op=translate&sl=en&tl=zh-CN")
+  win.loadURL('https://translate.google.com/?sl=en&tl=ja&op=translate')
 
   //hide menu bar but make usable with alt
   win.setMenuBarVisibility(false)
